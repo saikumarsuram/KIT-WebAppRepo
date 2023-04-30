@@ -16,6 +16,7 @@ class GFG {
         // throws FileNotFoundException which
         // is a checked exception
     }
+
 }
 #feature202 changes by venkat for the module reports on 20th-apr-2020
 public void writeName(String name) throws IOException {
@@ -27,3 +28,21 @@ public void writeName(String name) throws IOException {
     return firstName + " " + middleName + " " + lastName;
   }
 }
+
+	
+}static int factorial(int n){    
+  if (n == 0)    
+    return 1;    
+  else    
+    return(n * factorial(n-1));    
+ }    
+ #feature201 changes by vivek on services module on 20th-mar-2023
+ public class Main {
+  static void myMethod() {
+    // code to be executed
+  }
+}public class Main {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
