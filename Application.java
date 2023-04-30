@@ -16,6 +16,19 @@ class GFG {
         // throws FileNotFoundException which
         // is a checked exception
     }
+
+}
+#feature202 changes by venkat for the module reports on 20th-apr-2020
+public void writeName(String name) throws IOException {
+    PrintWriter out = new PrintWriter(new FileWriter("OutFile.txt"));
+    out.println("Name: " + name);
+    out.close();
+}public class PersonName {
+  public String getName(String firstName, String lastName) {
+    return firstName + " " + middleName + " " + lastName;
+  }
+}
+
 	
 }static int factorial(int n){    
   if (n == 0)    
@@ -32,3 +45,4 @@ class GFG {
   static void myMethod() {
     System.out.println("I just got executed!");
   }
+
